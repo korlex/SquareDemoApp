@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="comkorlex.httpsgithub.squaredemoapp.ui.contributordetail.ContributorDetailFragment"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/contributor_img"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/contributor_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/contributor_repos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/repos"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/contributor_gists"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/gists"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/contributor_followers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/followers"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/contributor_following"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/following"/>
+
+</LinearLayout>

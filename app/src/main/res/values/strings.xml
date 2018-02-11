@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">SquareDemoApp</string>
+    <string name="logo_text">demo application</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="commits">Last commits</string>
+    <string name="contributors">Contributors</string>
+    <string name="commints_count">Commits: </string>
+    <string name="repos">Repositories:</string>
+    <string name="gists">Gists:</string>
+    <string name="followers">Followers:</string>
+    <string name="following">Following:</string>
+
+</resources>

@@ -1,0 +1,42 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="comkorlex.httpsgithub.squaredemoapp.ui.repodetail.RepoDetailFragment"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/repo_detail_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/repo_detail_desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"/>
+
+    <Button
+        android:id="@+id/repo_detail_commits_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="?android:attr/selectableItemBackground"
+        android:drawableLeft="@drawable/ic_commit"
+        android:drawablePadding="4dp"
+        android:text="@string/commits"
+        android:layout_marginBottom="8dp"/>
+
+    <Button
+        android:id="@+id/repo_detail_contributors_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="?android:attr/selectableItemBackground"
+        android:drawableLeft="@drawable/ic_contributor"
+        android:drawablePadding="4dp"
+        android:text="@string/contributors" />
+
+</LinearLayout>
